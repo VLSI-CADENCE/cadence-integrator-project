@@ -21,11 +21,29 @@ fundamental building block for a **Sigma–Delta Modulator**.
 - Input: Sinusoidal signal  
 - Output: Integrated (ramp/filtered) waveform  
 
-## Screenshots
-The `screenshots/` folder contains:
-- Integrator schematic  
-- Transient response waveform  
-- AC response plot  
+## Integrator Schematic
+The CMOS integrator schematic designed using Cadence Virtuoso.
+
+![Integrator Schematic](images/integrator_schematic.png)
+
+## Integrator Symbol / Testbench
+Testbench used to verify the integrator operation.
+
+![Integrator Testbench](images/integrator_testbench.png)
+
+## Simulation Results
+Transient simulation results of the CMOS integrator.
+
+![Integrator Simulation](images/integrator_simulation.png)
+
+## Transient and AC Analysis
+Transient response and AC frequency response of the integrator.
+
+![Transient and AC Analysis](images/integrator_transient_ac.png)
+
+## Tools Used
+- Cadence Virtuoso (Analog Design Environment)
+- Spectre Simulator
 
 ## Project Team
 This project was carried out as a **group mini-project**.
